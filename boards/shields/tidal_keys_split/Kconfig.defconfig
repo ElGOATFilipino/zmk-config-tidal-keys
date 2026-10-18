@@ -1,7 +1,7 @@
 if SHIELD_TIDAL_KEYS_SPLIT_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "tidal_keys_split"
+    default "tidal_keys"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
