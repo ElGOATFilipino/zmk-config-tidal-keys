@@ -1,6 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your dtsi
 
-#include "tidal_keys-layouts.dtsi"
+#include "tidal_keys_split-layouts.dtsi"
 #include <dt-bindings/led/led.h>
 
 / {
