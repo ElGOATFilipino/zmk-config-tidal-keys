@@ -1,4 +1,4 @@
-#include <physical_layouts.dts>
+#include <dt-bindings/zmk/physical_layouts.dtsi>
 
 / {
     physical_layout0: physical_layout_0 {
@@ -6,7 +6,7 @@
         display-name = "Macro Pad";
 
         kscan = <&kscan0>;
-        transform = <&matrix_transform0>;
+        transform = <&default_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100  120    0       0     0     0>
