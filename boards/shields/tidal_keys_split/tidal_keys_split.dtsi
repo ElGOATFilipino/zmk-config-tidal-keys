@@ -27,7 +27,6 @@
     };
 
 
-{
     default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <10>;
@@ -45,7 +44,6 @@
             RC(4,0) &none   RC(4,2) RC(4,3) RC(4,4)   RC(4,5) RC(4,6) RC(4,7) RC(4,8) RC(4,9) 
         >;
     };
-};
 };
 
 &pinctrl {
